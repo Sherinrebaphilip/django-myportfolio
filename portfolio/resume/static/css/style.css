@@ -1,0 +1,112 @@
+body{
+    background-color: #5c4f3c;
+}
+
+.navbar-nav .nav-link:hover{
+    font-weight:bolder;
+    color:burlywood;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link{
+    font-size: 18px;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size:18px; 
+}
+
+.navbar-dark{
+    background-color: #473b27;
+}
+
+.circular-image-container{
+    width: 290px;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid rgb(66,59,52);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-image{
+    width: 290px;
+    height: auto;
+    display: block;
+}
+
+.title{
+    color:#a18d6d
+}
+
+.name{
+    color: white;
+}
+
+.social_links{
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid rgb(66,59,52);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_image{
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+.project_image{
+    display: block;
+}
+
+.points{
+    font-size: large;
+    color: beige;
+    padding-bottom: 3px;
+}
+
+.exp_title{
+    color:bisque;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.company{
+    color: aliceblue;
+}
+
+.form-container{
+    border: 2px solid burlywood;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(147, 125, 93);
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control {
+    background-color: rgb(147, 125, 93);
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.form-control{
+    background-color: aliceblue;
+}

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content1 %}
+
+<div class="row my-4">
+    
+    {% for certificate in certificates_show %}
+        <div class="col-6">
+            <img class="img-fluid project_image" style="padding-bottom: 40px;" src="{% static certificate.path %}" alt="Image not found" width="500" height="600">
+        </div>
+    {% endfor %}
+    
+</div>
+
+{% endblock content1 %}
